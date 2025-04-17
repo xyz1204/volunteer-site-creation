@@ -43,6 +43,7 @@ const Header = () => {
             <nav className="hidden md:flex space-x-8">
               <Link to="/" className="text-gray-700 hover:text-primary transition">Главная</Link>
               <Link to="/projects" className="text-gray-700 hover:text-primary transition">Походы</Link>
+              <Link to="/volunteers" className="text-gray-700 hover:text-primary transition">Волонтеры</Link>
               <Link to="/about" className="text-gray-700 hover:text-primary transition">О клубе</Link>
             </nav>
             
@@ -69,6 +70,7 @@ const Header = () => {
               <nav className="flex flex-col space-y-4">
                 <Link to="/" className="text-gray-700 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>Главная</Link>
                 <Link to="/projects" className="text-gray-700 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>Походы</Link>
+                <Link to="/volunteers" className="text-gray-700 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>Волонтеры</Link>
                 <Link to="/about" className="text-gray-700 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>О клубе</Link>
                 <div className="flex flex-col space-y-2 pt-2">
                   <Link to="/login" onClick={() => setIsMenuOpen(false)}>
